@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name :"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/textView22"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView23"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location :"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView25"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/textView24"
+        android:layout_toEndOf="@+id/textView24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:text="Event Type :"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView27"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_alignEnd="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Event Category :"
+        android:id="@+id/textView28"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView29"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/textView28"
+        android:layout_toEndOf="@+id/textView28" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ticket Price :"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView31"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/textView30"
+        android:layout_toEndOf="@+id/textView30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Going :"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView32"
+        android:layout_alignTop="@+id/textView31"
+        android:layout_toEndOf="@+id/textView31" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView33"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/textView32"
+        android:layout_toEndOf="@+id/textView32" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView7"
+        android:background="@drawable/myevent"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView50"
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

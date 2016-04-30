@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Service Provider :"
+        android:id="@+id/textView44"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location :"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView46"
+        android:layout_below="@+id/textView44"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contact :"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView48"
+        android:layout_below="@+id/textView46"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageView5"
+        android:background="@drawable/ser"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView45"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView44" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView47"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fff"
+        android:layout_alignTop="@+id/textView46"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView46" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView49"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fff"
+        android:layout_alignTop="@+id/textView48"
+        android:layout_alignStart="@+id/textView47"
+        android:layout_alignEnd="@+id/textView47" />
+
+</RelativeLayout>
