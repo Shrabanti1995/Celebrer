@@ -1,0 +1,2 @@
+# Celebrer
+As part of the Supply Chain Management course a mobile application in Android has been developed that aims to streamline the process of event management by creating a platform that brings together hosts and service providers.The application was focused on enabling users to host open parties/events, interface and publicize them on popular social networks, search for on-gong open events nearby and automate a complete event management given the budget.
